@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Assets/output.gif" width="100%" alt="Shivang Chaubey - Data Analyst Superhero"/>
+<img src="output.gif" width="100%" alt="Shivang Chaubey - Data Analyst Superhero"/>
 
 # Hi, I'm Shivang Chaubey 👋
 
