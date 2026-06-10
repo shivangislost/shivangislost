@@ -102,9 +102,6 @@
 <img src="https://github-readme-stats.vercel.app/api?username=shivangislost&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&icon_color=6C63FF&text_color=ffffff" width="48%" alt="GitHub Stats"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=shivangislost&theme=tokyonight&hide_border=true&background=0d1117&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF" width="48%" alt="GitHub Streak"/>
 
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=shivangislost&theme=tokyonight&no-frame=true&row=1&column=6&margin-w=10" width="100%" alt="Trophies"/>
 
 </div>
 
