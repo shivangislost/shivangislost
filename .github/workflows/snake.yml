@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate Snake Animation (Light + Dark)
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: shivangislost
           outputs: |
@@ -29,7 +29,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push Snake SVG to Output Branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
