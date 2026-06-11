@@ -4,7 +4,7 @@
 
 # Hi, I'm Shivang Chaubey 👋
 
-### Data Analyst · BI Developer · Frontend Enthusiast
+### MBA Candidate | Data Analyst | Business Analyst
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Turning+Raw+Data+into+Real+Decisions;SQL+%7C+Python+%7C+Power+BI+%7C+Tableau;Building+Dashboards+that+Drive+Action;Always+Learning%2C+Always+Exploring" alt="Typing SVG" />
