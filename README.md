@@ -35,7 +35,7 @@
 <tr>
 <td valign="top" width="60%">
 
-- 🔍 I work as a **Data Analyst**, turning messy datasets into clear business insights
+- 🔍 Aspiring **Data Analyst**, turning messy datasets into clear business insights
 - 📊 I build **interactive dashboards** in Power BI, Tableau, and Google Sheets
 - 🐍 I automate **ETL pipelines and data workflows** using Python and SQL
 - 🌐 I also build clean **web interfaces** with React, Next.js and TypeScript
