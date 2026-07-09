@@ -47,7 +47,9 @@
 <td valign="top" width="40%">
 
 <p align="center">
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shivangislost&theme=tokyonight"/>
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,mysql,postgres,sqlite,react,nextjs,ts,js,git,github&theme=dark" />
+</p>
 </p>
 </td>
 </tr>
@@ -101,12 +103,16 @@
 <div align="center">
 
 <p align="center">
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shivangislost&theme=tokyonight"/>
-<br><br>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shivangislost&theme=tokyonight"/>
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shivangislost&theme=tokyonight&utcOffset=5.5"/>
-</p>
 
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shivangislost&theme=tokyonight"/>
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shivangislost&theme=tokyonight&utcOffset=5.5"/>
+
+<br><br>
+
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shivangislost&theme=tokyo-night&hide_border=true&area=true"/>
+
+</p>
 </div>
 
 ---
