@@ -45,11 +45,7 @@
 
 </td>
 <td valign="top" width="40%">
-
-<p align="center">
-<img src="https://svgshare.com/i/16rU.svg" width="95%" alt="Data Analyst"/>
-</p>
-
+  <img src="./assets/cyber-dashboard.svg" width="100%" alt="Cyber Dashboard"/>
 </td>
 
 </tr>
