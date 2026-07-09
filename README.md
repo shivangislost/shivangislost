@@ -46,16 +46,13 @@
 </td>
 <td valign="top" width="40%">
 
-<p align="center">
-<p align="center">
 <td valign="top" width="40%">
 
 <p align="center">
-
-<img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="100%" />
-
+<img src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" width="100%" />
 </p>
 
+</td>
 </td>
 </p>
 </p>
