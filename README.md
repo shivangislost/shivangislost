@@ -46,8 +46,7 @@
 </td>
 <td valign="top" width="40%">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shivangislost&theme=tokyonight" width="100%" alt="Top Languages"/>
-
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shivangislost&theme=tokyonight" width="100%" alt="Most Used Languages"/>
 </td>
 </tr>
 </table>
@@ -99,10 +98,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shivangislost&theme=tokyonight" width="48%" alt="GitHub Stats"/>
-
-<img src="https://streak-stats.demolab.com?user=shivangislost&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Streak"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shivangislost&theme=tokyo-night&hide_border=true" width="100%" alt="Contribution Graph"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=shivangislost&theme=tokyonight" width="100%" alt="Profile Details"/>
 
 </div>
 
