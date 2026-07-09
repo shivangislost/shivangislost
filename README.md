@@ -46,7 +46,7 @@
 </td>
 <td valign="top" width="40%">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shivangislost&theme=tokyonight" width="100%" alt="Most Used Languages"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shivangislost&theme=tokyonight" width="100%" alt="Languages"/>
 </td>
 </tr>
 </table>
