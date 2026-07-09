@@ -46,7 +46,7 @@
 </td>
 <td valign="top" width="40%">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivangislost&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&text_color=ffffff" width="100%" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivangislost&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800&langs_count=8&hide=Jupyter%20Notebook" width="100%" alt="Top Languages"/>
 
 </td>
 </tr>
@@ -99,9 +99,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=shivangislost&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=6C63FF&icon_color=6C63FF&text_color=ffffff" width="48%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shivangislost&theme=tokyonight&hide_border=true&background=0d1117&ring=6C63FF&fire=FF6B6B&currStreakLabel=6C63FF" width="48%" alt="GitHub Streak"/>
-
+<img src="https://github-readme-stats.vercel.app/api?username=shivangislost&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" width="48%" alt="GitHub Stats"/>
+<img src="https://streak-stats.demolab.com?user=shivangislost&theme=tokyonight&hide_border=true" width="48%" alt="GitHub Streak"/>
 
 </div>
 
