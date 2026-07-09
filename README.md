@@ -48,7 +48,15 @@
 
 <p align="center">
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,mysql,postgres,sqlite,react,nextjs,ts,js,git,github&theme=dark" />
+<td valign="top" width="40%">
+
+<p align="center">
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2l5d2p4eGh5M2k2c2c4Z3o4d2VvcnY4NjJwY2V1d2N4d2k5dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="95%"/>
+
+</p>
+
+</td>
 </p>
 </p>
 </td>
