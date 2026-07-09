@@ -106,9 +106,7 @@
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shivangislost&theme=tokyonight"/>
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shivangislost&theme=tokyonight&utcOffset=5.5"/>
 </p>
-<p align="center">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shivangislost&theme=tokyo-night&hide_border=true&area=true"/>
-</p>
+
 </div>
 
 ---
