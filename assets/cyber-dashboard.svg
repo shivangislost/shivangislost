@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="420" height="540" viewBox="0 0 420 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="420" height="540" viewBox="0 0 420 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
@@ -144,5 +144,434 @@ DATA ANALYST • BUSINESS INTELLIGENCE
 stroke="url(#purple)"
 stroke-width="2"
 opacity=".5"/>
+
+<!-- ===================== -->
+<!-- SKILLS -->
+<!-- ===================== -->
+
+<text x="30" y="180" class="small">SKILL MATRIX</text>
+
+<!-- Python -->
+<text x="30" y="210" class="skill">🐍 Python</text>
+<rect x="150" y="198" width="220" height="10" rx="5" fill="#1E293B"/>
+<rect class="bar1" x="150" y="198" width="205" height="10" rx="5" fill="url(#purple)"/>
+
+<!-- SQL -->
+<text x="30" y="245" class="skill">🗄 SQL</text>
+<rect x="150" y="233" width="220" height="10" rx="5" fill="#1E293B"/>
+<rect class="bar2" x="150" y="233" width="185" height="10" rx="5" fill="url(#cyan)"/>
+
+<!-- Power BI -->
+<text x="30" y="280" class="skill">📊 Power BI</text>
+<rect x="150" y="268" width="220" height="10" rx="5" fill="#1E293B"/>
+<rect class="bar3" x="150" y="268" width="170" height="10" rx="5" fill="#FFD54A"/>
+
+<!-- Tableau -->
+<text x="30" y="315" class="skill">📈 Tableau</text>
+<rect x="150" y="303" width="220" height="10" rx="5" fill="#1E293B"/>
+<rect class="bar4" x="150" y="303" width="155" height="10" rx="5" fill="#FF8C42"/>
+
+<!-- React -->
+<text x="30" y="350" class="skill">⚛ React</text>
+<rect x="150" y="338" width="220" height="10" rx="5" fill="#1E293B"/>
+<rect class="bar2" x="150" y="338" width="135" height="10" rx="5" fill="#61DAFB"/>
+
+<!-- Divider -->
+
+<line
+x1="28"
+y1="385"
+x2="392"
+y2="385"
+stroke="url(#purple)"
+stroke-width="2"
+opacity=".45"/>
+
+<!-- KPI -->
+
+<text x="30" y="420" class="small">LIVE METRICS</text>
+
+<!-- KPI CARD 1 -->
+
+<rect
+x="30"
+y="440"
+width="105"
+height="70"
+rx="12"
+fill="#10152D"
+stroke="#6C63FF"
+opacity=".95"/>
+
+<text x="48" y="466" class="label">PROJECTS</text>
+<text x="52" y="493" style="font:700 28px Arial;fill:white;">20+</text>
+
+<!-- KPI CARD 2 -->
+
+<rect
+x="157"
+y="440"
+width="105"
+height="70"
+rx="12"
+fill="#10152D"
+stroke="#00E5FF"
+opacity=".95"/>
+
+<text x="175" y="466" class="label">DASHBOARDS</text>
+<text x="188" y="493" style="font:700 28px Arial;fill:white;">15+</text>
+
+<!-- KPI CARD 3 -->
+
+<rect
+x="284"
+y="440"
+width="105"
+height="70"
+rx="12"
+fill="#10152D"
+stroke="#A855F7"
+opacity=".95"/>
+
+<text x="313" y="466" class="label">STATUS</text>
+<text x="310" y="493" style="font:700 22px Arial;fill:#22C55E;">OPEN</text>
+  <!-- ===================== -->
+<!-- LIVE GRAPH -->
+<!-- ===================== -->
+
+<text x="30" y="540" class="small">SYSTEM ACTIVITY</text>
+
+<rect
+x="30"
+y="560"
+width="360"
+height="130"
+rx="14"
+fill="#0E1328"
+stroke="#6C63FF"
+opacity=".95"/>
+
+<!-- Grid -->
+
+<g opacity=".15">
+<line x1="50" y1="590" x2="370" y2="590" stroke="#6C63FF"/>
+<line x1="50" y1="620" x2="370" y2="620" stroke="#6C63FF"/>
+<line x1="50" y1="650" x2="370" y2="650" stroke="#6C63FF"/>
+</g>
+
+<!-- Animated Graph -->
+
+<polyline
+fill="none"
+stroke="url(#cyan)"
+stroke-width="4"
+stroke-linecap="round"
+stroke-linejoin="round"
+points="
+50,660
+80,640
+110,645
+140,600
+170,615
+200,570
+230,590
+260,555
+290,570
+320,540
+350,550">
+
+<animate
+attributeName="stroke-dasharray"
+from="0,1000"
+to="1000,0"
+dur="3s"
+fill="freeze"/>
+
+</polyline>
+
+<!-- Glowing Points -->
+
+<g fill="#00E5FF">
+
+<circle cx="80" cy="640" r="4">
+<animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="140" cy="600" r="4">
+<animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="200" cy="570" r="4">
+<animate attributeName="r" values="4;7;4" dur="2.8s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="260" cy="555" r="4">
+<animate attributeName="r" values="4;7;4" dur="2.1s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="320" cy="540" r="4">
+<animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+
+</g>
+
+<!-- ===================== -->
+<!-- CURRENT MISSION -->
+<!-- ===================== -->
+
+<text x="30" y="735" class="small">CURRENT MISSION</text>
+
+<text x="40" y="770" class="mission">▸ Building BI Dashboards</text>
+<text x="40" y="800" class="mission">▸ Automating ETL Pipelines</text>
+<text x="40" y="830" class="mission">▸ Learning Machine Learning</text>
+
+<circle cx="365" cy="785" r="8" fill="#22C55E">
+<animate attributeName="opacity"
+values="1;.3;1"
+dur="1.6s"
+repeatCount="indefinite"/>
+</circle>
+
+<text
+x="330"
+y="810"
+style="font:700 12px Arial;fill:#22C55E;">
+ONLINE
+</text>
+  <!-- ===================== -->
+<!-- TERMINAL -->
+<!-- ===================== -->
+
+<text x="30" y="875" class="small">SYSTEM TERMINAL</text>
+
+<rect
+x="30"
+y="895"
+width="360"
+height="175"
+rx="14"
+fill="#090B15"
+stroke="#6C63FF"/>
+
+<!-- Terminal Buttons -->
+
+<circle cx="55" cy="920" r="5" fill="#FF5F56"/>
+<circle cx="72" cy="920" r="5" fill="#FFBD2E"/>
+<circle cx="89" cy="920" r="5" fill="#27C93F"/>
+
+<text
+x="45"
+y="955"
+style="font:700 14px monospace;fill:#22C55E;">
+&gt; booting Shivang.exe
+</text>
+
+<text
+x="45"
+y="980"
+style="font:700 14px monospace;fill:#22C55E;">
+&gt; loading Python modules...
+</text>
+
+<text
+x="45"
+y="1005"
+style="font:700 14px monospace;fill:#22C55E;">
+&gt; connecting SQL database...
+</text>
+
+<text
+x="45"
+y="1030"
+style="font:700 14px monospace;fill:#22C55E;">
+&gt; launching BI dashboard...
+</text>
+
+<text
+x="45"
+y="1055"
+style="font:700 14px monospace;fill:#00E5FF;">
+&gt; STATUS : READY █
+</text>
+
+<rect
+x="315"
+y="905"
+width="55"
+height="55"
+rx="8"
+fill="#111827"
+stroke="#00E5FF"/>
+
+<text
+x="325"
+y="940"
+style="font:700 22px Arial;fill:#00E5FF;">
+AI
+</text>
+
+<!-- ===================== -->
+<!-- FLOATING PARTICLES -->
+<!-- ===================== -->
+
+<g opacity=".5">
+
+<circle cx="35" cy="140" r="2" fill="#00E5FF">
+<animate attributeName="cy" values="140;100;140" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="385" cy="220" r="2" fill="#A855F7">
+<animate attributeName="cy" values="220;180;220" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="70" cy="610" r="2" fill="#00E5FF">
+<animate attributeName="cy" values="610;570;610" dur="4s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="360" cy="740" r="2" fill="#A855F7">
+<animate attributeName="cy" values="740;700;740" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="200" cy="430" r="2" fill="#00E5FF">
+<animate attributeName="cy" values="430;390;430" dur="7s" repeatCount="indefinite"/>
+</circle>
+
+</g>
+  <!-- ===================== -->
+<!-- HOLOGRAPHIC CORNERS -->
+<!-- ===================== -->
+
+<g opacity=".8" stroke="url(#cyan)" stroke-width="2" fill="none">
+
+<path d="M18 18 H55"/>
+<path d="M18 18 V55"/>
+
+<path d="M402 18 H365"/>
+<path d="M402 18 V55"/>
+
+<path d="M18 1082 H55"/>
+<path d="M18 1082 V1045"/>
+
+<path d="M402 1082 H365"/>
+<path d="M402 1082 V1045"/>
+
+</g>
+
+<!-- ===================== -->
+<!-- RADAR -->
+<!-- ===================== -->
+
+<circle
+cx="335"
+cy="1020"
+r="40"
+fill="none"
+stroke="#6C63FF"
+opacity=".15"/>
+
+<circle
+cx="335"
+cy="1020"
+r="28"
+fill="none"
+stroke="#6C63FF"
+opacity=".25"/>
+
+<circle
+cx="335"
+cy="1020"
+r="16"
+fill="none"
+stroke="#6C63FF"
+opacity=".4"/>
+
+<line
+x1="335"
+y1="1020"
+x2="370"
+y2="995"
+stroke="#00E5FF"
+stroke-width="2">
+
+<animateTransform
+attributeName="transform"
+attributeType="XML"
+type="rotate"
+from="0 335 1020"
+to="360 335 1020"
+dur="5s"
+repeatCount="indefinite"/>
+
+</line>
+
+<circle
+cx="350"
+cy="1008"
+r="3"
+fill="#00E5FF">
+
+<animate
+attributeName="opacity"
+values="1;.2;1"
+dur="1.5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- ===================== -->
+<!-- FOOTER -->
+<!-- ===================== -->
+
+<line
+x1="30"
+y1="1090"
+x2="390"
+y2="1090"
+stroke="url(#purple)"
+opacity=".35"/>
+
+<text
+x="210"
+y="1125"
+text-anchor="middle"
+style="font:700 12px Arial;fill:#7DD3FC;letter-spacing:2px;">
+DESIGNED • BUILT • ANALYZED
+</text>
+
+<text
+x="210"
+y="1148"
+text-anchor="middle"
+style="font:700 18px Arial;fill:white;">
+SHIVANG CHAUBEY
+</text>
+
+<text
+x="210"
+y="1170"
+text-anchor="middle"
+style="font:600 12px Arial;fill:#A5B4FC;">
+DATA ANALYST • BUSINESS INTELLIGENCE
+</text>
+
+<!-- Glow -->
+
+<rect
+x="4"
+y="4"
+width="412"
+height="1192"
+rx="22"
+fill="none"
+stroke="url(#purple)"
+stroke-width="1">
+
+<animate
+attributeName="opacity"
+values=".4;1;.4"
+dur="3s"
+repeatCount="indefinite"/>
+
+</rect>
 
 </svg>
