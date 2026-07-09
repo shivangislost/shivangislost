@@ -33,19 +33,28 @@
 
 <table>
 <tr>
-<td valign="top" width="60%">
 
-- 🔍 Aspiring **Data Analyst**, turning messy datasets into clear business insights
-- 📊 I build **interactive dashboards** in Power BI, Tableau, and Google Sheets
-- 🐍 I automate **ETL pipelines and data workflows** using Python and SQL
-- 🌐 I also build clean **web interfaces** with React, Next.js and TypeScript
-- 📈 Ask me about **RFM Analysis, KPI Tracking, BI Strategy** or **Data Visualization**
+<td valign="top" width="70%">
+
+### 🚀 Who Am I?
+
+- 🔍 Aspiring **Data Analyst** passionate about transforming raw data into actionable business insights.
+- 📊 Building **interactive dashboards** with Power BI, Tableau, Excel & Google Sheets.
+- 🐍 Automating **ETL pipelines, data cleaning and reporting** using Python & SQL.
+- 🌐 Developing modern web applications using **React, Next.js & TypeScript**.
+- 📈 Passionate about **Business Intelligence, KPI Tracking, Data Visualization & RFM Analysis**.
+- 🎓 Currently pursuing an **MBA** while strengthening my skills in Analytics & Strategy.
+- 🚀 Built multiple real-world projects focused on solving business problems with data.
+- 💡 Always learning new technologies and exploring smarter ways to turn data into decisions.
 - 🌍 Portfolio: **[shivangchaubey.vercel.app](https://shivangchaubey.vercel.app/)**
-- 📬 Reach me at: **[LinkedIn](https://www.linkedin.com/in/ishivangchaubey/)**
+- 📬 Let's connect on **[LinkedIn](https://www.linkedin.com/in/ishivangchaubey/)**
 
 </td>
-<td valign="top" width="40%">
-  <img src="./assets/cyber-dashboard.svg" width="100%" alt="Cyber Dashboard"/>
+
+<td valign="top" width="30%" align="center">
+
+<img src="./assets/cyber-dashboard.svg" width="95%" alt="Cyber Dashboard"/>
+
 </td>
 
 </tr>
@@ -100,14 +109,8 @@
 
 <p align="center">
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=shivangislost&theme=tokyonight"/>
-
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=shivangislost&theme=tokyonight&utcOffset=5.5"/>
-
-<br><br>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=shivangislost&theme=tokyo-night&hide_border=true&area=true"/>
-
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=shivangislost&theme=tokyonight"/>
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=shivangislost&theme=tokyonight"/>
 </p>
 </div>
 
