@@ -46,17 +46,13 @@
 </td>
 <td valign="top" width="40%">
 
-<td valign="top" width="40%">
-
 <p align="center">
-<img src="https://raw.githubusercontent.com/AVS1508/AVS1508/master/assets/Night-Coding.gif" width="100%" />
+<img src="https://svgshare.com/i/16rU.svg" width="95%" alt="Data Analyst"/>
 </p>
 
 </td>
-</td>
-</p>
-</p>
-</td>
+
+
 </tr>
 </table>
 
