@@ -1,1 +1,148 @@
-svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420" height="540" viewBox="0 0 420 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0" y1="0" x2="420" y2="540">
+<stop offset="0%" stop-color="#0b1020"/>
+<stop offset="45%" stop-color="#13172f"/>
+<stop offset="100%" stop-color="#090c18"/>
+</linearGradient>
+
+<linearGradient id="purple" x1="0" y1="0" x2="420" y2="0">
+<stop offset="0%" stop-color="#6C63FF"/>
+<stop offset="100%" stop-color="#A855F7"/>
+</linearGradient>
+
+<linearGradient id="cyan" x1="0" y1="0" x2="420" y2="0">
+<stop offset="0%" stop-color="#00E5FF"/>
+<stop offset="100%" stop-color="#6C63FF"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="5" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+<path d="M24 0H0V24" stroke="#20254d" stroke-width="1"/>
+</pattern>
+
+<style>
+.title{
+font:700 28px Arial;
+fill:white;
+}
+
+.small{
+font:600 12px Arial;
+fill:#7DD3FC;
+letter-spacing:2px;
+}
+
+.label{
+font:600 13px Arial;
+fill:#A5B4FC;
+}
+
+.value{
+font:700 14px Arial;
+fill:white;
+}
+
+.skill{
+font:700 14px Arial;
+fill:white;
+}
+
+.mission{
+font:600 13px Arial;
+fill:#D1D5DB;
+}
+
+@keyframes pulse{
+0%{opacity:.3}
+50%{opacity:1}
+100%{opacity:.3}
+}
+
+@keyframes scan{
+0%{transform:translateY(-530px);}
+100%{transform:translateY(540px);}
+}
+
+.scan{
+animation:scan 6s linear infinite;
+}
+
+.dot{
+animation:pulse 2s infinite;
+}
+
+.bar1{animation:pulse 1.8s infinite;}
+.bar2{animation:pulse 2.2s infinite;}
+.bar3{animation:pulse 2.6s infinite;}
+.bar4{animation:pulse 3s infinite;}
+</style>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="420" height="540" rx="26" fill="url(#bg)"/>
+
+<rect width="420" height="540" fill="url(#grid)" opacity=".28"/>
+
+<!-- Outer Glow -->
+
+<rect
+x="2"
+y="2"
+width="416"
+height="536"
+rx="24"
+stroke="url(#purple)"
+stroke-width="2"
+filter="url(#glow)"
+opacity=".9"/>
+
+<!-- Scanline -->
+
+<rect
+class="scan"
+x="0"
+y="0"
+width="420"
+height="60"
+fill="url(#cyan)"
+opacity=".06"/>
+
+<!-- Header -->
+
+<circle cx="35" cy="40" r="6" fill="#22C55E"/>
+
+<circle class="dot" cx="35" cy="40" r="10" fill="#22C55E" opacity=".25"/>
+
+<text x="55" y="46" class="small">
+SYSTEM ONLINE
+</text>
+
+<text x="28" y="90" class="title">
+SHIVANG.EXE
+</text>
+
+<text x="30" y="118" class="label">
+DATA ANALYST • BUSINESS INTELLIGENCE
+</text>
+
+<!-- Divider -->
+
+<line x1="28" y1="145" x2="392" y2="145"
+stroke="url(#purple)"
+stroke-width="2"
+opacity=".5"/>
+
+</svg>
