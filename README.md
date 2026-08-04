@@ -2,7 +2,7 @@
 
 <img src="output.gif" width="100%" alt="Shivang Chaubey - Data Analyst Superhero"/>
 
-# Hi, I'm Shivang Chaubey 👋
+# Hi, I'm Shivang Chaubey 👋 
 
 ### MBA Candidate | Data Analyst | Business Strategist
 
