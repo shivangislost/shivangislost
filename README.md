@@ -52,7 +52,7 @@
 </td>
 
 <td valign="top" width="40%">
-  <img src="./assets/cyber-dashboard-v2.svg" width="100%" alt="Cyber Dashboard"/>
+  <img src="./assets/cyber-dashboard-neon.gif" width="100%" alt="Cyber Dashboard"/>
 </td>
 
 </tr>
