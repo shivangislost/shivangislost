@@ -1,577 +1,147 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="420" height="540" viewBox="0 0 420 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-<defs>
-
-<linearGradient id="bg" x1="0" y1="0" x2="420" y2="540">
-<stop offset="0%" stop-color="#0b1020"/>
-<stop offset="45%" stop-color="#13172f"/>
-<stop offset="100%" stop-color="#090c18"/>
-</linearGradient>
-
-<linearGradient id="purple" x1="0" y1="0" x2="420" y2="0">
-<stop offset="0%" stop-color="#6C63FF"/>
-<stop offset="100%" stop-color="#A855F7"/>
-</linearGradient>
-
-<linearGradient id="cyan" x1="0" y1="0" x2="420" y2="0">
-<stop offset="0%" stop-color="#00E5FF"/>
-<stop offset="100%" stop-color="#6C63FF"/>
-</linearGradient>
-
-<filter id="glow">
-<feGaussianBlur stdDeviation="5" result="blur"/>
-<feMerge>
-<feMergeNode in="blur"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
-</filter>
-
-<pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-<path d="M24 0H0V24" stroke="#20254d" stroke-width="1"/>
-</pattern>
-
-<style>
-.title{
-font:700 28px Arial;
-fill:white;
-}
-
-.small{
-font:600 12px Arial;
-fill:#7DD3FC;
-letter-spacing:2px;
-}
-
-.label{
-font:600 13px Arial;
-fill:#A5B4FC;
-}
-
-.value{
-font:700 14px Arial;
-fill:white;
-}
-
-.skill{
-font:700 14px Arial;
-fill:white;
-}
-
-.mission{
-font:600 13px Arial;
-fill:#D1D5DB;
-}
-
-@keyframes pulse{
-0%{opacity:.3}
-50%{opacity:1}
-100%{opacity:.3}
-}
-
-@keyframes scan{
-0%{transform:translateY(-530px);}
-100%{transform:translateY(540px);}
-}
-
-.scan{
-animation:scan 6s linear infinite;
-}
-
-.dot{
-animation:pulse 2s infinite;
-}
-
-.bar1{animation:pulse 1.8s infinite;}
-.bar2{animation:pulse 2.2s infinite;}
-.bar3{animation:pulse 2.6s infinite;}
-.bar4{animation:pulse 3s infinite;}
-</style>
-
-</defs>
-
-<!-- Background -->
-
-<rect width="420" height="540" rx="26" fill="url(#bg)"/>
-
-<rect width="420" height="540" fill="url(#grid)" opacity=".28"/>
-
-<!-- Outer Glow -->
-
-<rect
-x="2"
-y="2"
-width="416"
-height="536"
-rx="24"
-stroke="url(#purple)"
-stroke-width="2"
-filter="url(#glow)"
-opacity=".9"/>
-
-<!-- Scanline -->
-
-<rect
-class="scan"
-x="0"
-y="0"
-width="420"
-height="60"
-fill="url(#cyan)"
-opacity=".06"/>
-
-<!-- Header -->
-
-<circle cx="35" cy="40" r="6" fill="#22C55E"/>
-
-<circle class="dot" cx="35" cy="40" r="10" fill="#22C55E" opacity=".25"/>
-
-<text x="55" y="46" class="small">
-SYSTEM ONLINE
-</text>
-
-<text x="28" y="90" class="title">
-SHIVANG.EXE
-</text>
-
-<text x="30" y="118" class="label">
-DATA ANALYST • BUSINESS INTELLIGENCE
-</text>
-
-<!-- Divider -->
-
-<line x1="28" y1="145" x2="392" y2="145"
-stroke="url(#purple)"
-stroke-width="2"
-opacity=".5"/>
-
-<!-- ===================== -->
-<!-- SKILLS -->
-<!-- ===================== -->
-
-<text x="30" y="180" class="small">SKILL MATRIX</text>
-
-<!-- Python -->
-<text x="30" y="210" class="skill">🐍 Python</text>
-<rect x="150" y="198" width="220" height="10" rx="5" fill="#1E293B"/>
-<rect class="bar1" x="150" y="198" width="205" height="10" rx="5" fill="url(#purple)"/>
-
-<!-- SQL -->
-<text x="30" y="245" class="skill">🗄 SQL</text>
-<rect x="150" y="233" width="220" height="10" rx="5" fill="#1E293B"/>
-<rect class="bar2" x="150" y="233" width="185" height="10" rx="5" fill="url(#cyan)"/>
-
-<!-- Power BI -->
-<text x="30" y="280" class="skill">📊 Power BI</text>
-<rect x="150" y="268" width="220" height="10" rx="5" fill="#1E293B"/>
-<rect class="bar3" x="150" y="268" width="170" height="10" rx="5" fill="#FFD54A"/>
-
-<!-- Tableau -->
-<text x="30" y="315" class="skill">📈 Tableau</text>
-<rect x="150" y="303" width="220" height="10" rx="5" fill="#1E293B"/>
-<rect class="bar4" x="150" y="303" width="155" height="10" rx="5" fill="#FF8C42"/>
-
-<!-- React -->
-<text x="30" y="350" class="skill">⚛ React</text>
-<rect x="150" y="338" width="220" height="10" rx="5" fill="#1E293B"/>
-<rect class="bar2" x="150" y="338" width="135" height="10" rx="5" fill="#61DAFB"/>
-
-<!-- Divider -->
-
-<line
-x1="28"
-y1="385"
-x2="392"
-y2="385"
-stroke="url(#purple)"
-stroke-width="2"
-opacity=".45"/>
-
-<!-- KPI -->
-
-<text x="30" y="420" class="small">LIVE METRICS</text>
-
-<!-- KPI CARD 1 -->
-
-<rect
-x="30"
-y="440"
-width="105"
-height="70"
-rx="12"
-fill="#10152D"
-stroke="#6C63FF"
-opacity=".95"/>
-
-<text x="48" y="466" class="label">PROJECTS</text>
-<text x="52" y="493" style="font:700 28px Arial;fill:white;">20+</text>
-
-<!-- KPI CARD 2 -->
-
-<rect
-x="157"
-y="440"
-width="105"
-height="70"
-rx="12"
-fill="#10152D"
-stroke="#00E5FF"
-opacity=".95"/>
-
-<text x="175" y="466" class="label">DASHBOARDS</text>
-<text x="188" y="493" style="font:700 28px Arial;fill:white;">15+</text>
-
-<!-- KPI CARD 3 -->
-
-<rect
-x="284"
-y="440"
-width="105"
-height="70"
-rx="12"
-fill="#10152D"
-stroke="#A855F7"
-opacity=".95"/>
-
-<text x="313" y="466" class="label">STATUS</text>
-<text x="310" y="493" style="font:700 22px Arial;fill:#22C55E;">OPEN</text>
-  <!-- ===================== -->
-<!-- LIVE GRAPH -->
-<!-- ===================== -->
-
-<text x="30" y="540" class="small">SYSTEM ACTIVITY</text>
-
-<rect
-x="30"
-y="560"
-width="360"
-height="130"
-rx="14"
-fill="#0E1328"
-stroke="#6C63FF"
-opacity=".95"/>
-
-<!-- Grid -->
-
-<g opacity=".15">
-<line x1="50" y1="590" x2="370" y2="590" stroke="#6C63FF"/>
-<line x1="50" y1="620" x2="370" y2="620" stroke="#6C63FF"/>
-<line x1="50" y1="650" x2="370" y2="650" stroke="#6C63FF"/>
-</g>
-
-<!-- Animated Graph -->
-
-<polyline
-fill="none"
-stroke="url(#cyan)"
-stroke-width="4"
-stroke-linecap="round"
-stroke-linejoin="round"
-points="
-50,660
-80,640
-110,645
-140,600
-170,615
-200,570
-230,590
-260,555
-290,570
-320,540
-350,550">
-
-<animate
-attributeName="stroke-dasharray"
-from="0,1000"
-to="1000,0"
-dur="3s"
-fill="freeze"/>
-
-</polyline>
-
-<!-- Glowing Points -->
-
-<g fill="#00E5FF">
-
-<circle cx="80" cy="640" r="4">
-<animate attributeName="r" values="4;7;4" dur="2s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="140" cy="600" r="4">
-<animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="200" cy="570" r="4">
-<animate attributeName="r" values="4;7;4" dur="2.8s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="260" cy="555" r="4">
-<animate attributeName="r" values="4;7;4" dur="2.1s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="320" cy="540" r="4">
-<animate attributeName="r" values="4;7;4" dur="1.8s" repeatCount="indefinite"/>
-</circle>
-
-</g>
-
-<!-- ===================== -->
-<!-- CURRENT MISSION -->
-<!-- ===================== -->
-
-<text x="30" y="735" class="small">CURRENT MISSION</text>
-
-<text x="40" y="770" class="mission">▸ Building BI Dashboards</text>
-<text x="40" y="800" class="mission">▸ Automating ETL Pipelines</text>
-<text x="40" y="830" class="mission">▸ Learning Machine Learning</text>
-
-<circle cx="365" cy="785" r="8" fill="#22C55E">
-<animate attributeName="opacity"
-values="1;.3;1"
-dur="1.6s"
-repeatCount="indefinite"/>
-</circle>
-
-<text
-x="330"
-y="810"
-style="font:700 12px Arial;fill:#22C55E;">
-ONLINE
-</text>
-  <!-- ===================== -->
-<!-- TERMINAL -->
-<!-- ===================== -->
-
-<text x="30" y="875" class="small">SYSTEM TERMINAL</text>
-
-<rect
-x="30"
-y="895"
-width="360"
-height="175"
-rx="14"
-fill="#090B15"
-stroke="#6C63FF"/>
-
-<!-- Terminal Buttons -->
-
-<circle cx="55" cy="920" r="5" fill="#FF5F56"/>
-<circle cx="72" cy="920" r="5" fill="#FFBD2E"/>
-<circle cx="89" cy="920" r="5" fill="#27C93F"/>
-
-<text
-x="45"
-y="955"
-style="font:700 14px monospace;fill:#22C55E;">
-&gt; booting Shivang.exe
-</text>
-
-<text
-x="45"
-y="980"
-style="font:700 14px monospace;fill:#22C55E;">
-&gt; loading Python modules...
-</text>
-
-<text
-x="45"
-y="1005"
-style="font:700 14px monospace;fill:#22C55E;">
-&gt; connecting SQL database...
-</text>
-
-<text
-x="45"
-y="1030"
-style="font:700 14px monospace;fill:#22C55E;">
-&gt; launching BI dashboard...
-</text>
-
-<text
-x="45"
-y="1055"
-style="font:700 14px monospace;fill:#00E5FF;">
-&gt; STATUS : READY █
-</text>
-
-<rect
-x="315"
-y="905"
-width="55"
-height="55"
-rx="8"
-fill="#111827"
-stroke="#00E5FF"/>
-
-<text
-x="325"
-y="940"
-style="font:700 22px Arial;fill:#00E5FF;">
-AI
-</text>
-
-<!-- ===================== -->
-<!-- FLOATING PARTICLES -->
-<!-- ===================== -->
-
-<g opacity=".5">
-
-<circle cx="35" cy="140" r="2" fill="#00E5FF">
-<animate attributeName="cy" values="140;100;140" dur="5s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="385" cy="220" r="2" fill="#A855F7">
-<animate attributeName="cy" values="220;180;220" dur="6s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="70" cy="610" r="2" fill="#00E5FF">
-<animate attributeName="cy" values="610;570;610" dur="4s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="360" cy="740" r="2" fill="#A855F7">
-<animate attributeName="cy" values="740;700;740" dur="5s" repeatCount="indefinite"/>
-</circle>
-
-<circle cx="200" cy="430" r="2" fill="#00E5FF">
-<animate attributeName="cy" values="430;390;430" dur="7s" repeatCount="indefinite"/>
-</circle>
-
-</g>
-  <!-- ===================== -->
-<!-- HOLOGRAPHIC CORNERS -->
-<!-- ===================== -->
-
-<g opacity=".8" stroke="url(#cyan)" stroke-width="2" fill="none">
-
-<path d="M18 18 H55"/>
-<path d="M18 18 V55"/>
-
-<path d="M402 18 H365"/>
-<path d="M402 18 V55"/>
-
-<path d="M18 1082 H55"/>
-<path d="M18 1082 V1045"/>
-
-<path d="M402 1082 H365"/>
-<path d="M402 1082 V1045"/>
-
-</g>
-
-<!-- ===================== -->
-<!-- RADAR -->
-<!-- ===================== -->
-
-<circle
-cx="335"
-cy="1020"
-r="40"
-fill="none"
-stroke="#6C63FF"
-opacity=".15"/>
-
-<circle
-cx="335"
-cy="1020"
-r="28"
-fill="none"
-stroke="#6C63FF"
-opacity=".25"/>
-
-<circle
-cx="335"
-cy="1020"
-r="16"
-fill="none"
-stroke="#6C63FF"
-opacity=".4"/>
-
-<line
-x1="335"
-y1="1020"
-x2="370"
-y2="995"
-stroke="#00E5FF"
-stroke-width="2">
-
-<animateTransform
-attributeName="transform"
-attributeType="XML"
-type="rotate"
-from="0 335 1020"
-to="360 335 1020"
-dur="5s"
-repeatCount="indefinite"/>
-
-</line>
-
-<circle
-cx="350"
-cy="1008"
-r="3"
-fill="#00E5FF">
-
-<animate
-attributeName="opacity"
-values="1;.2;1"
-dur="1.5s"
-repeatCount="indefinite"/>
-
-</circle>
-
-<!-- ===================== -->
-<!-- FOOTER -->
-<!-- ===================== -->
-
-<line
-x1="30"
-y1="1090"
-x2="390"
-y2="1090"
-stroke="url(#purple)"
-opacity=".35"/>
-
-<text
-x="210"
-y="1125"
-text-anchor="middle"
-style="font:700 12px Arial;fill:#7DD3FC;letter-spacing:2px;">
-DESIGNED • BUILT • ANALYZED
-</text>
-
-<text
-x="210"
-y="1148"
-text-anchor="middle"
-style="font:700 18px Arial;fill:white;">
-SHIVANG CHAUBEY
-</text>
-
-<text
-x="210"
-y="1170"
-text-anchor="middle"
-style="font:600 12px Arial;fill:#A5B4FC;">
-DATA ANALYST • BUSINESS INTELLIGENCE
-</text>
-
-<!-- Glow -->
-
-<rect
-x="4"
-y="4"
-width="412"
-height="1192"
-rx="22"
-fill="none"
-stroke="url(#purple)"
-stroke-width="1">
-
-<animate
-attributeName="opacity"
-values=".4;1;.4"
-dur="3s"
-repeatCount="indefinite"/>
-
-</rect>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08091a"/>
+      <stop offset="0.5" stop-color="#11132b"/>
+      <stop offset="1" stop-color="#080b18"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151832"/>
+      <stop offset="1" stop-color="#0c1024"/>
+    </linearGradient>
+
+    <linearGradient id="cyanPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00eaff"/>
+      <stop offset="0.55" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#d85cff"/>
+    </linearGradient>
+
+    <linearGradient id="bar1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00eaff"/>
+      <stop offset="1" stop-color="#4b8dff"/>
+    </linearGradient>
+
+    <linearGradient id="bar2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="1" stop-color="#d85cff"/>
+    </linearGradient>
+
+    <filter id="glowCyan" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <filter id="glowPurple" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#27305a" stroke-width="1" opacity=".42"/>
+    </pattern>
+
+    <clipPath id="clip">
+      <rect x="0" y="0" width="800" height="520" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="800" height="520" fill="url(#bg)"/>
+    <rect width="800" height="520" fill="url(#grid)" opacity=".7"/>
+
+    <!-- ambient neon accents -->
+    <circle cx="720" cy="70" r="120" fill="#7c5cff" opacity=".07"/>
+    <circle cx="100" cy="470" r="150" fill="#00eaff" opacity=".045"/>
+
+    <!-- outer frame -->
+    <rect x="10" y="10" width="780" height="500" rx="22" fill="none" stroke="#313a68" stroke-width="2"/>
+    <rect x="16" y="16" width="768" height="488" rx="18" fill="none" stroke="url(#cyanPurple)" stroke-width="1.5" opacity=".65"/>
+
+    <!-- header -->
+    <rect x="28" y="28" width="744" height="62" rx="13" fill="#0b0e20" stroke="#29325b"/>
+    <circle cx="50" cy="59" r="7" fill="#00eaff" filter="url(#glowCyan)"/>
+    <text x="68" y="56" fill="#f2f5ff" font-family="monospace" font-size="22" font-weight="700" letter-spacing="2">SHIVANG.EXE</text>
+    <text x="68" y="75" fill="#7180b7" font-family="monospace" font-size="10" letter-spacing="1.5">DATA • BUSINESS • INTELLIGENCE</text>
+
+    <rect x="604" y="45" width="142" height="28" rx="14" fill="#0c1e25" stroke="#00eaff" opacity=".95"/>
+    <circle cx="620" cy="59" r="4" fill="#2dff9a" filter="url(#glowCyan)"/>
+    <text x="631" y="63" fill="#6fffe4" font-family="monospace" font-size="11" font-weight="700">SYSTEM ONLINE</text>
+
+    <!-- left panel -->
+    <rect x="28" y="104" width="330" height="300" rx="15" fill="url(#panel)" stroke="#2b3564"/>
+    <text x="50" y="135" fill="#00eaff" font-family="monospace" font-size="12" font-weight="700" letter-spacing="2">01 / SKILL MATRIX</text>
+    <text x="50" y="164" fill="#f3f5ff" font-family="sans-serif" font-size="20" font-weight="700">Core Stack</text>
+
+    <text x="50" y="197" fill="#aeb8e6" font-family="monospace" font-size="12">PYTHON</text>
+    <rect x="130" y="187" width="190" height="9" rx="4.5" fill="#202744"/>
+    <rect x="130" y="187" width="170" height="9" rx="4.5" fill="url(#bar1)" filter="url(#glowCyan)"/>
+
+    <text x="50" y="231" fill="#aeb8e6" font-family="monospace" font-size="12">SQL</text>
+    <rect x="130" y="221" width="190" height="9" rx="4.5" fill="#202744"/>
+    <rect x="130" y="221" width="158" height="9" rx="4.5" fill="url(#bar2)" filter="url(#glowPurple)"/>
+
+    <text x="50" y="265" fill="#aeb8e6" font-family="monospace" font-size="12">POWER BI</text>
+    <rect x="130" y="255" width="190" height="9" rx="4.5" fill="#202744"/>
+    <rect x="130" y="255" width="176" height="9" rx="4.5" fill="url(#bar1)" filter="url(#glowCyan)"/>
+
+    <text x="50" y="299" fill="#aeb8e6" font-family="monospace" font-size="12">TABLEAU</text>
+    <rect x="130" y="289" width="190" height="9" rx="4.5" fill="#202744"/>
+    <rect x="130" y="289" width="145" height="9" rx="4.5" fill="url(#bar2)" filter="url(#glowPurple)"/>
+
+    <text x="50" y="333" fill="#aeb8e6" font-family="monospace" font-size="12">REACT</text>
+    <rect x="130" y="323" width="190" height="9" rx="4.5" fill="#202744"/>
+    <rect x="130" y="323" width="128" height="9" rx="4.5" fill="url(#bar1)" filter="url(#glowCyan)"/>
+
+    <line x1="50" y1="360" x2="326" y2="360" stroke="#29325b"/>
+    <text x="50" y="382" fill="#7180b7" font-family="monospace" font-size="10">FOCUS</text>
+    <text x="105" y="382" fill="#dbe2ff" font-family="monospace" font-size="10">BI • ETL • VISUALIZATION</text>
+
+    <!-- right panel -->
+    <rect x="374" y="104" width="398" height="300" rx="15" fill="url(#panel)" stroke="#2b3564"/>
+    <text x="396" y="135" fill="#d85cff" font-family="monospace" font-size="12" font-weight="700" letter-spacing="2">02 / LIVE ANALYTICS</text>
+    <text x="396" y="164" fill="#f3f5ff" font-family="sans-serif" font-size="20" font-weight="700">Decision Pipeline</text>
+
+    <!-- graph -->
+    <rect x="396" y="180" width="354" height="116" rx="10" fill="#090d1e" stroke="#202b52"/>
+    <path d="M410 270H738M410 240H738M410 210H738" stroke="#202b52" stroke-width="1"/>
+    <path d="M410 276 L450 260 L486 266 L522 232 L555 244 L592 214 L627 225 L665 195 L700 210 L736 184"
+          fill="none" stroke="#00eaff" stroke-width="3" filter="url(#glowCyan)"/>
+    <path d="M410 276 L450 260 L486 266 L522 232 L555 244 L592 214 L627 225 L665 195 L700 210 L736 184 L736 276 Z"
+          fill="#00eaff" opacity=".06"/>
+    <circle cx="736" cy="184" r="5" fill="#00eaff" filter="url(#glowCyan)"/>
+    <text x="410" y="193" fill="#52608f" font-family="monospace" font-size="9">SIGNAL / TREND</text>
+    <text x="677" y="287" fill="#53618e" font-family="monospace" font-size="9">TIME →</text>
+
+    <!-- mini metric cards -->
+    <rect x="396" y="311" width="108" height="70" rx="10" fill="#0b1024" stroke="#29325b"/>
+    <text x="410" y="333" fill="#7180b7" font-family="monospace" font-size="9">PROJECTS</text>
+    <text x="410" y="359" fill="#00eaff" font-family="monospace" font-size="23" font-weight="700">20+</text>
+    <text x="410" y="373" fill="#53618e" font-family="monospace" font-size="8">BUILD • SHIP • LEARN</text>
+
+    <rect x="516" y="311" width="108" height="70" rx="10" fill="#0b1024" stroke="#29325b"/>
+    <text x="530" y="333" fill="#7180b7" font-family="monospace" font-size="9">DASHBOARDS</text>
+    <text x="530" y="359" fill="#d85cff" font-family="monospace" font-size="23" font-weight="700">15+</text>
+    <text x="530" y="373" fill="#53618e" font-family="monospace" font-size="8">DATA → INSIGHT</text>
+
+    <rect x="636" y="311" width="114" height="70" rx="10" fill="#0b1024" stroke="#29325b"/>
+    <text x="650" y="333" fill="#7180b7" font-family="monospace" font-size="9">STATUS</text>
+    <circle cx="653" cy="356" r="5" fill="#2dff9a" filter="url(#glowCyan)"/>
+    <text x="665" y="361" fill="#6fffe4" font-family="monospace" font-size="13" font-weight="700">BUILDING</text>
+    <text x="650" y="374" fill="#53618e" font-family="monospace" font-size="8">NEXT LEVEL</text>
+
+    <!-- footer terminal -->
+    <rect x="28" y="420" width="744" height="72" rx="14" fill="#070b17" stroke="#2b3564"/>
+    <circle cx="50" cy="443" r="4" fill="#ff5f57"/>
+    <circle cx="64" cy="443" r="4" fill="#ffbd2e"/>
+    <circle cx="78" cy="443" r="4" fill="#28c840"/>
+    <text x="98" y="447" fill="#7180b7" font-family="monospace" font-size="10">TERMINAL / SHIVANG</text>
+
+    <text x="50" y="471" fill="#00eaff" font-family="monospace" font-size="11">&gt;</text>
+    <text x="64" y="471" fill="#b9c3ec" font-family="monospace" font-size="11">transforming raw data into business decisions</text>
+    <rect x="384" y="462" width="7" height="13" fill="#00eaff" opacity=".9"/>
+    <text x="412" y="471" fill="#53618e" font-family="monospace" font-size="10">PYTHON • SQL • BI • WEB</text>
+
+    <text x="704" y="471" fill="#7c5cff" font-family="monospace" font-size="10" text-anchor="end">v2.0</text>
+  </g>
 </svg>
